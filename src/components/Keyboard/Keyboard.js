@@ -22,8 +22,6 @@ function getStatusByLetter(validatedGuesses) {
 function Keyboard({ validatedGuesses }) {
   let statusByLetter = getStatusByLetter(validatedGuesses);
 
-  console.log(statusByLetter);
-
   return (
     <div className="keyboard">
       {ALPHA_ROWS.map((row, index) => (
